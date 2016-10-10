@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Zubiri</title>
 
     <!-- Bootstrap -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -21,9 +21,34 @@
   <body>
     <div class ="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-            <img class="img-responsive irudia" src="img/header.png"/>
-            </div>
+            
+            <!-- inicio navabar -->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarzubiri" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Zubiri</a>
+                    </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbarzubiri">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Nosotros <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Formación</a></li>
+                        <li><a href="#">Proyectos</a></li>
+                        
+                        
+                    </ul>
+            
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+            </nav>
         </div>
         
         
@@ -31,16 +56,16 @@
     <div class ="container">
         <div class="row">
             
-            <div class="col-md-8 col-md-push-2 col-xs-12">
-            <img class="img-responsive irudia" src="img/ContentPost1.png"/>
+            <div class="col-md-8 col-md-push-2 col-xs-12 col-sm-8 col-sm-push-4 ">
+                <img class="img-responsive irudia" src="img/ContentPost1.png"/>
             </div>
             
-            <div class="col-md-2 col-md-pull-8 col-xs-6">
-            <img class="img-responsive irudia" src="img/sideNavDcha.png"/>
+            <div class="col-md-2 col-md-pull-8 col-xs-6 col-sm-4 col-sm-pull-8 hidden-xs">
+                <img class="img-responsive irudia" src="img/sideNavIzda.png"/>
             </div>
             
-            <div class="col-md-2 col-xs-6 ">
-            <img class="img-responsive irudia" src="img/sideNavIzda.png"/>
+            <div class="col-md-2 col-xs-6 visible-md visible-lg">
+                <img class="img-responsive irudia" src="img/sideNavDcha.png"/>
             </div>
         </div>
         
