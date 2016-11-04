@@ -1,0 +1,63 @@
+.parallax-window {
+    
+    min-height: 400px;
+    background: transparent;
+}
+
+.urdina {
+    background-color: #009FE3;
+}
+
+.letra-beltza {
+    color: black;
+}
+.urdin-iluna {
+    background-color: #312783;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #288AE7;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #288AE7 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+
+.bg-blue{
+    background-color: #288AE7;
+}
+.bg-pink{
+    background-color: #E52488;
+}
+.bg-green{
+    background-color: #89E421;
+}
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+.icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #000!important;
+  
+}

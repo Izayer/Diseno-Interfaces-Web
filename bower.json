@@ -1,0 +1,22 @@
+{
+  "name": "zubiri",
+  "homepage": "https://github.com/Izayer/Diseno-Interfaces-Web",
+  "authors": [
+    "Iker <iker_izagirre@hotmail.com>"
+  ],
+  "description": "zubiri mockup berria",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "parallax.js": "^1.4.2"
+  }
+}
