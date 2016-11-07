@@ -51,11 +51,19 @@ $(window).scroll(function () {
     if ($(window).scrollTop() < 1100|| $(window).scrollTop() > 1776 ) {
       $('#gu').removeClass('active');
     }
-    if ($(window).scrollTop() >= 1776) {
+    if ($(window).scrollTop() > 1776) {
       $('#formakuntza').addClass('active');
     }
 
     if ($(window).scrollTop() < 1776 || $(window).scrollTop() > 2500) {
       $('#formakuntza').removeClass('active');
     }
+    if ($(window).scrollTop() > 2500) {
+      $('#proiektuak').addClass('active');
+    }
+
+    if ($(window).scrollTop() < 2500 || $(window).scrollTop() > 100000) {
+      $('#proiektuak').removeClass('active');
+    }
+
   });
